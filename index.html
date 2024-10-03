@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Currency Converter</h1>
+    <label for="amount">Entered INR:</label>
+    <input type="text" id="amount" disabled>
+    <div id="buttons"></div>
+    
+    <label for="currency">Select Currency:</label>
+    <select id="currency">
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+        <option value="KRW">KRW</option>
+        <option value="PKR">PKR</option>
+        <option value="JPY">JPY</option>
+    </select>
+    
+    <button id="convert">Convert</button>
+    <button id="clear">Clear</button>
+    <button id="exit">Exit</button>
+    
+    <h2 id="result"></h2>
+    
+    <script src="script.js"></script>
+</body>
+</html>
